@@ -39,7 +39,6 @@ public class Main {
 
             if (countA > 0 && countB > 0 && countC > 0 && countD > 0) {
                 count = countA + countB + countC + countD;
-                System.out.println("count = " + count);
                 array[i] = count;
                 i = i - count + 1;
                 count = 0;
