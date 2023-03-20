@@ -27,11 +27,6 @@ public class Main {
                 int dCheck = countD;
                 countD++;
             }
-            System.out.println("countA = " + countA);
-            System.out.println("countB = " + countB);
-            System.out.println("countC = " + countC);
-            System.out.println("countD = " + countD);
-            System.out.println("++++++++++++++");
             if ((countA == 2 && countB + countD + countC == 0)) {
                 countA--;
             } else if (countB == 2 && countA + countC + countD == 0) {
